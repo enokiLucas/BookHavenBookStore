@@ -12,3 +12,8 @@
     --font-body: calibri;
     --font-captions: arial;
 }
+
+header {
+    display: flex;
+    background-color: var(--color-1);
+}
