@@ -1,9 +1,9 @@
 :root {
-    --color-1: #2e2e4e;
-    --color-2: #5c2e5c;
-    --color-3: #3f5461;
-    --color-4: #3e5641;
-    --color-5: #742c36;
+    --color-1: #2e4057;
+    --color-2: #ee583f;
+    --color-3: #f7b3cc;
+    --color-4: #c7b65e;
+    --color-5: #fff7ee;
 
     --font-color: #131c26;
 
@@ -11,4 +11,9 @@
     --font-subtitle: comfortaa;
     --font-body: calibri;
     --font-captions: arial;
+}
+
+header {
+    display: flex;
+    background-color: var(--color-1);
 }
