@@ -12,8 +12,20 @@
     --font-body: calibri;
     --font-captions: arial;
 }
+body {
+    margin: 0;
+}
 
 header {
     display: flex;
     background-color: var(--color-1);
+    color: var(--color-4);
+    max-height: 5em;
+    justify-content: space-between;
+}
+
+#logo-image {
+    max-width: 5em;
+    max-height: 5em;
+    object-fit: cover;
 }
