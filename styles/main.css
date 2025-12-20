@@ -4,16 +4,55 @@
     --color-3: #f7b3cc;
     --color-4: #c7b65e;
     --color-5: #fff7ee;
-
     --font-color: #131c26;
-
-    --font-title: arial;
-    --font-subtitle: comfortaa;
-    --font-body: calibri;
-    --font-captions: arial;
 }
+
+.title-large {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.subtitle {
+    font-family: Comfortaa;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.body-large {
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.body-strong {
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body {
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.captions {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 11px;
+}
+
 body {
     margin: 0;
+    color: var(--font-color);
+    background-color: var(--color-5);
 }
 
 header {
@@ -37,22 +76,3 @@ header {
     display: flex;
     align-items: center;
 }
-
-#logo-name {
-    font-family: var(--font-title);
-    font-size: 25px;
-}
-
-a.nav-link-item {
-    font-family: var(--font-subtitle);
-    font-size: 20px;
-    padding: 0.5em;
-}
-
-/* Title Large */
-/* Title */
-/* Subtitle */
-/* Body Large */
-/* Body Strong */
-/* Body */
-/* Captions */
