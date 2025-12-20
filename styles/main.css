@@ -1,9 +1,9 @@
 :root {
-    --color-1: #2e4057;
-    --color-2: #ee583f;
-    --color-3: #f7b3cc;
-    --color-4: #c7b65e;
-    --color-5: #fff7ee;
+    --inkwellBlue: #2e4057;
+    --intensityIndigo: #ee583f;
+    --dustyRose: #f7b3cc;
+    --agedGold: #c7b65e;
+    --parchmentWhite: #fff7ee;
     --font-color: #131c26;
 }
 
@@ -52,13 +52,13 @@
 body {
     margin: 0;
     color: var(--font-color);
-    background-color: var(--color-5);
+    background-color: var(--parchmentWhite);
 }
 
 header {
     display: flex;
-    background-color: var(--color-1);
-    color: var(--color-4);
+    background-color: var(--inkwellBlue);
+    color: var(--agedGold);
     max-height: 8em;
     justify-content: space-between;
     align-items: center;
