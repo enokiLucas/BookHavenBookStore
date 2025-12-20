@@ -72,7 +72,14 @@ header {
 
 #logo,
 #nav-links {
-    padding: 0 2em;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link-item,
+.logo {
+    text-decoration: none;
+    color: var(--agedGold);
+    padding: 0 0.5em;
 }
