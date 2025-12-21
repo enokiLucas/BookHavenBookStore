@@ -64,6 +64,15 @@ header {
     align-items: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 5em;
+}
+
 #logo-image {
     max-width: 6em;
     max-height: 6em;
