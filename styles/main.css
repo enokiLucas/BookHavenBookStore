@@ -73,6 +73,15 @@ main {
     gap: 5em;
 }
 
+footer {
+    display: flex;
+    background-color: var(--inkwellBlue);
+    color: var(--parchmentWhite);
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #logo-image {
     max-width: 6em;
     max-height: 6em;
