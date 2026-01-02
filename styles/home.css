@@ -7,10 +7,26 @@
     color: var(--font-color);
 }
 
-#catalog-4x4 {
-    display: grid;
-    grid-template-columns: repeat(2, 10em [column1]);
-    grid-template-rows: repeat(2, 10em [row1]);
-    justify-items: center;
-    align-items: center;
+#catalog {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 3em;
+}
+
+#catalog-2x2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+    max-width: 11em;
+    max-height: 11em;
+}
+.catalog-image {
+    max-width: 5em;
+    max-height: 5em;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 2em;
+    border-color: var(--font-color);
 }
