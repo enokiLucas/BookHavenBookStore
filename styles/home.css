@@ -1,3 +1,16 @@
 #homepage-books {
     display: flex;
 }
+
+#join-us {
+    background-color: var(--intensityIndigo);
+    color: var(--font-color);
+}
+
+#catalog-4x4 {
+    display: grid;
+    grid-template-columns: repeat(2, 10em [column1]);
+    grid-template-rows: repeat(2, 10em [row1]);
+    justify-items: center;
+    align-items: center;
+}
