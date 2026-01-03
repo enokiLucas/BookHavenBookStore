@@ -30,3 +30,14 @@
     border-radius: 2em;
     border-color: var(--font-color);
 }
+
+#welcome {
+    display: flex;
+    margin: 2em;
+    gap: 0.5em;
+}
+
+#cover {
+    max-width: 18em;
+    max-height: 18em;
+}
