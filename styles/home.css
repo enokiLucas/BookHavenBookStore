@@ -40,4 +40,5 @@
 #cover {
     max-width: 18em;
     max-height: 18em;
+    border-radius: 2em;
 }
