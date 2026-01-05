@@ -1,0 +1,7 @@
+main {
+    color: var(--fontColor);
+}
+
+#about-us {
+    display: flex;
+}

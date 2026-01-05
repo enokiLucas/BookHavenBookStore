@@ -1,3 +1,7 @@
+main {
+    color: var(--font-color);
+}
+
 #products {
     display: flex;
     flex-direction: column;
