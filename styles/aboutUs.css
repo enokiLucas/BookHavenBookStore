@@ -4,4 +4,11 @@ main {
 
 #about-us {
     display: flex;
+    padding: 3em;
+}
+
+#about-us-cover {
+    max-width: 18em;
+    max-height: 6em;
+    border-radius: 2em;
 }
