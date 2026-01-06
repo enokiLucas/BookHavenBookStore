@@ -12,3 +12,8 @@ main {
     max-height: 6em;
     border-radius: 2em;
 }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
