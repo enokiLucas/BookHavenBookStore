@@ -16,6 +16,7 @@ main {
 #contact-us {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1em;
     background-color: var(--dustyRose);
     width: 100%;
