@@ -6,6 +6,12 @@
     background-color: var(--intensityIndigo);
     width: 100%;
     color: var(--font-color);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    margin: 0 5em;
 }
 
 #catalog {
@@ -35,7 +41,7 @@
 
 #welcome {
     display: flex;
-    margin: 2em;
+    margin: 2em 5em;
     gap: 0.5em;
     color: var(--font-color);
 }
