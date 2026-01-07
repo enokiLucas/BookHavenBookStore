@@ -7,6 +7,15 @@ main {
     padding: 3em;
 }
 
+#our-mission {
+    color: var(--fontColor);
+    background-color: var(--dustyRose);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #about-us-cover {
     max-width: 18em;
     max-height: 18em;
