@@ -30,3 +30,12 @@ main {
 #submit-contact-us {
     margin-bottom: 1em;
 }
+
+#msg {
+    height: 15em;
+    width: 50em;
+}
+
+.input-single-line {
+    width: 50em;
+}
