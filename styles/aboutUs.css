@@ -26,3 +26,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+#submit-contact-us {
+    margin-bottom: 1em;
+}

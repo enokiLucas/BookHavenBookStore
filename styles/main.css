@@ -143,3 +143,7 @@ img {
     border-radius: 2em;
     border-color: var(--font-color);
 }
+
+p.no-margin {
+    margin-bottom: 0em;
+}
