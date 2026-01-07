@@ -4,6 +4,7 @@
 
 #join-us {
     background-color: var(--intensityIndigo);
+    width: 100%;
     color: var(--font-color);
 }
 
@@ -12,6 +13,7 @@
     flex-direction: row;
     gap: 3em;
     margin: 3em;
+    color: var(--font-color);
 }
 
 #catalog-2x2 {
@@ -35,10 +37,24 @@
     display: flex;
     margin: 2em;
     gap: 0.5em;
+    color: var(--font-color);
 }
 
 #cover {
     max-width: 18em;
     max-height: 18em;
     border-radius: 2em;
+}
+
+#bestsellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dustyRose);
+    width: 100%;
+    color: var(--font-color);
+}
+
+p.title {
+    margin-bottom: 0em;
 }
