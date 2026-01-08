@@ -155,3 +155,12 @@ input {
     border-radius: 1em;
     border-width: 0.05em;
 }
+
+.button-main {
+    background-color: var(--intensityIndigo);
+    border-width: 0.05em;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 10em;
+    border: none;
+}
