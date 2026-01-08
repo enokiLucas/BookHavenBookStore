@@ -164,3 +164,13 @@ input {
     width: 10em;
     border: none;
 }
+
+button#newsletter-submit-button {
+    background-color: var(--inkwellBlue);
+    color: var(--parchmentWhite);
+    border-width: 0.05em;
+    border-radius: 0.5em;
+    border-color: var(--parchmentWhite);
+    height: 2em;
+    width: 7em;
+}
