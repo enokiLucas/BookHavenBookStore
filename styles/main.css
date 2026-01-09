@@ -204,7 +204,9 @@ button#newsletter-submit-button {
         color: var(--font-color);
     }
 
-    #full-menu {
+    #full-menu,
+    #subscribe-to-newsletter,
+    #nav-links-footer {
         display: none;
     }
 }
