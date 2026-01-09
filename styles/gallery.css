@@ -12,7 +12,7 @@ main {
     display: flex;
 }
 
-@media all and (max-width: 300px) {
+@media all and (max-width: 480px) {
     .products-group {
         display: flex;
         flex-direction: column;
