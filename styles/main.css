@@ -179,3 +179,7 @@ button#newsletter-submit-button {
 .card-button {
     width: 7em;
 }
+
+#burger-menu {
+    display: none;
+}
