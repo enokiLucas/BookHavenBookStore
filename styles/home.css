@@ -11,7 +11,8 @@
     flex-direction: column;
     align-items: flex-start;
     align-content: center;
-    margin: 0 5em;
+    margin: 0 10em;
+    padding-left: 5em;
 }
 
 #catalog {
@@ -59,6 +60,8 @@
     background-color: var(--dustyRose);
     width: 100%;
     color: var(--font-color);
+    margin: 2em 5em;
+    padding-left: 5em;
 }
 
 @media all and (max-width: 480px) {
