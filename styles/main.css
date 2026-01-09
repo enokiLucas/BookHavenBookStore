@@ -175,3 +175,7 @@ button#newsletter-submit-button {
     height: 2em;
     width: 7em;
 }
+
+.card-button {
+    width: 7em;
+}
