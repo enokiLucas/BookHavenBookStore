@@ -191,11 +191,11 @@ button#newsletter-submit-button {
     }
 
     #nav-links {
-        visibility: hidden;
+        display: hidden;
     }
 
     #burger-menu:hover #nav-links {
-        visibility: visible;
+        display: flex;
     }
 
     #full-menu {
