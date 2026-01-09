@@ -191,15 +191,17 @@ button#newsletter-submit-button {
     #burger-menu {
         display: flex;
         flex-direction: column;
-        color: var(--agedGold);
-        position: relative;
     }
 
     #burger-menu:hover #nav-links-burger {
         display: flex;
         flex-direction: column;
         gap: 0.5em;
-        position: relative;
+        background-color: var(--intensityIndigo);
+    }
+
+    .nav-link-item {
+        color: var(--font-color);
     }
 
     #full-menu {
