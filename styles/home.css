@@ -42,7 +42,7 @@
 #welcome {
     display: flex;
     margin: 2em 5em;
-    gap: 0.5em;
+    gap: 1em;
     color: var(--font-color);
 }
 
