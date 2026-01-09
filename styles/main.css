@@ -190,6 +190,7 @@ button#newsletter-submit-button {
         display: flex;
         flex-direction: column;
         color: var(--agedGold);
+        margin: 0 5em;
     }
 
     #burger-menu:hover #nav-links-burger {
