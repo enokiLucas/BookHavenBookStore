@@ -190,12 +190,9 @@ button#newsletter-submit-button {
         flex-direction: column;
     }
 
-    #nav-links {
-        display: hidden;
-    }
-
     #burger-menu:hover #nav-links {
         display: flex;
+        flex-direction: column;
     }
 
     #full-menu {
