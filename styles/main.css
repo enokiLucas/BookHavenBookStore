@@ -189,6 +189,14 @@ button#newsletter-submit-button {
         display: flex;
     }
 
+    #nav-links {
+        visibility: hidden;
+    }
+
+    #burger-menu:hover #nav-links {
+        visibility: visible;
+    }
+
     #full-menu {
         display: none;
     }
