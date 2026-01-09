@@ -60,3 +60,12 @@
     width: 100%;
     color: var(--font-color);
 }
+
+@media all and (max-width: 480px) {
+    #welcome,
+    #homepage-books,
+    #catalog {
+        display: flex;
+        flex-direction: column;
+    }
+}
