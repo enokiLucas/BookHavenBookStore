@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <title>Book Haven Bookstore | Custom</title>
         <link rel="stylesheet" href="../styles/main.css" />
+        <link rel="stylesheet" href="../styles/custom.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet" />
     </head>
 
     <body>
@@ -21,9 +25,26 @@
         </header>
 
         <main>
-            <!-- Event -->
-            <!-- Reviews -->
-            <!-- Form to add a review -->
+            <p class="title-large">Community Board</p>
+            <p class="body-large">Please add a review and join in the discussion.</p>
+
+            <div id="community-board">
+                <div id="old-msg"></div>
+
+                <p class="title no-margin">Community Board</p>
+
+                <div class="form-container" id="form-name">
+                    <label for="name" class="subtitle">Name:</label>
+                    <input type="text" id="name" class="input-single-line" required />
+                </div>
+
+                <div class="form-container" id="form-msg">
+                    <label for="text" class="subtitle">Message:</label>
+                    <input type="text" id="msg" required />
+                </div>
+
+                <button type="submit" class="button-main body-large" id="submit-contact-us">Submit</button>
+            </div>
         </main>
 
         <footer>

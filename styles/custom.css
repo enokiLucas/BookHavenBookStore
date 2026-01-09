@@ -1,0 +1,26 @@
+#community-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: var(--dustyRose);
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-contact-us {
+    margin-bottom: 1em;
+}
+
+#msg {
+    height: 15em;
+    width: 50em;
+}
+
+.input-single-line {
+    width: 50em;
+}
