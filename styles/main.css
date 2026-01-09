@@ -184,9 +184,10 @@ button#newsletter-submit-button {
     display: none;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 480px) {
     #burger-menu {
         display: flex;
+        flex-direction: column;
     }
 
     #nav-links {
