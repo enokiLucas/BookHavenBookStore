@@ -11,3 +11,10 @@ main {
 .products-group {
     display: flex;
 }
+
+@media all and (max-width: 480px) {
+    .products-group {
+        display: flex;
+        flex-direction: column;
+    }
+}
