@@ -180,7 +180,8 @@ button#newsletter-submit-button {
     width: 7em;
 }
 
-#burger-menu {
+#burger-menu,
+#nav-links-burger {
     display: none;
 }
 
@@ -190,7 +191,7 @@ button#newsletter-submit-button {
         flex-direction: column;
     }
 
-    #burger-menu:hover #nav-links {
+    #burger-menu:hover #nav-links-burger {
         display: flex;
         flex-direction: column;
     }
