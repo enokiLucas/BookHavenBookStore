@@ -5,6 +5,7 @@
     --agedGold: #c7b65e;
     --parchmentWhite: #fff7ee;
     --font-color: #131c26;
+    overflow: hidden;
 }
 
 .title-large {
@@ -65,6 +66,7 @@ header {
     max-height: 8em;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 main {
@@ -197,6 +199,7 @@ button#newsletter-submit-button {
         display: flex;
         flex-direction: column;
         gap: 0.5em;
+        position: relative;
     }
 
     #full-menu {
