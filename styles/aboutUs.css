@@ -5,6 +5,7 @@ main {
 #about-us {
     display: flex;
     padding: 3em;
+    gap: 1em;
 }
 
 #our-mission {
