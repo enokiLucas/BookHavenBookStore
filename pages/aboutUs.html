@@ -84,17 +84,17 @@
                 <form autocomplete="on">
                     <div class="form-container" id="form-name">
                         <label for="name" class="subtitle">Name:</label>
-                        <input type="text" id="name" class="input-single-line" required />
+                        <input type="text" id="name" name="name" class="input-single-line" required />
                     </div>
 
                     <div class="form-container" id="form-email">
                         <label for="email" class="subtitle">e-mail:</label>
-                        <input type="email" id="email" class="input-single-line" required />
+                        <input type="email" id="email" name="email" class="input-single-line" required />
                     </div>
 
                     <div class="form-container" id="form-msg">
                         <label for="text" class="subtitle">Message:</label>
-                        <input type="text" id="msg" required />
+                        <textarea id="msg" name="msg" rows="5" cols="33"></textarea>
                     </div>
 
                     <button type="submit" class="button-main body-large" id="submit-contact-us">Submit</button>
