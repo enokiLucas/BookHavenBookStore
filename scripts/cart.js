@@ -15,3 +15,7 @@ function addToCart(itemName) {
   sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
   showMessage("Item added to the cart: " + itemName);
 }
+
+function showMessage(msg) {
+  alert(msg);
+}
