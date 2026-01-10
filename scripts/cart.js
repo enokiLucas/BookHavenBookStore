@@ -4,6 +4,7 @@ const addToCartButtons = document.querySelectorAll(".add-to-cart");
 const viewCartButton = document.querySelector("#view-cart-button");
 const cartModal = document.querySelector(".cart-modal");
 const closeTheCart = document.querySelector("#close-cart");
+const clearTheCartButton = document.querySelector("#clear-cart-button");
 
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -22,6 +23,12 @@ viewCartButton.addEventListener("click", () => {
 closeTheCart.addEventListener("click", () => {
   console.log("close cart");
   closeCartModel();
+});
+
+clearTheCartButton.addEventListener("click", () => {
+  console.log("clear the cart");
+  clearTheCart();
+  showMessage("All items removed from the cart");
 });
 
 function addToCart(itemName) {
@@ -48,6 +55,14 @@ function displayCartItems() {
 
 function closeCartModel() {
   cartModal.style.display = "none";
+}
+
+function clearTheCart() {
+  if (cartItems && cartItems.length > 0) {
+    cartItems.length = 0;
+    sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
+    displayCartItems();
+  }
 }
 
 function showMessage(msg) {
