@@ -169,7 +169,7 @@ textarea {
     border: none;
 }
 
-button#newsletter-submit-button {
+button#newsletter-submit-button-footer {
     background-color: var(--inkwellBlue);
     color: var(--parchmentWhite);
     border-width: 0.05em;
