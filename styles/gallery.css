@@ -18,6 +18,11 @@ main {
     left: 25em;
 }
 
+.modal-content {
+    background-color: var(--parchmentWhite);
+    color: var(--font-color);
+}
+
 @media all and (max-width: 480px) {
     .products-group {
         display: flex;
