@@ -12,6 +12,12 @@ main {
     display: flex;
 }
 
+#view-cart-button {
+    margin: 1em 3em;
+    position: relative;
+    left: 25em;
+}
+
 @media all and (max-width: 480px) {
     .products-group {
         display: flex;
