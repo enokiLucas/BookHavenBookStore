@@ -211,7 +211,7 @@ button#newsletter-submit-button {
     }
 }
 
-.modal {
+.cart-modal {
     display: none;
     position: fixed;
     z-index: 1;
