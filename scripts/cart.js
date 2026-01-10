@@ -3,6 +3,7 @@ const cartItems = JSON.parse(sessionStorage.getItem("cartItems")) || [];
 const addToCartButtons = document.querySelectorAll(".add-to-cart");
 const viewCartButton = document.querySelector("#view-cart-button");
 const cartModal = document.querySelector(".cart-modal");
+const closeTheCart = document.querySelector("#close-cart");
 
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -16,6 +17,11 @@ viewCartButton.addEventListener("click", () => {
   console.log("view cart");
   openCartModel();
   displayCartItems();
+});
+
+closeTheCart.addEventListener("click", () => {
+  console.log("close cart");
+  closeCartModel();
 });
 
 function addToCart(itemName) {
@@ -38,6 +44,10 @@ function displayCartItems() {
       cartList.appendChild(listItem);
     }
   }
+}
+
+function closeCartModel() {
+  cartModal.style.display = "none";
 }
 
 function showMessage(msg) {
