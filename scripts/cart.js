@@ -5,6 +5,7 @@ const viewCartButton = document.querySelector("#view-cart-button");
 const cartModal = document.querySelector(".cart-modal");
 const closeTheCart = document.querySelector("#close-cart");
 const clearTheCartButton = document.querySelector("#clear-cart-button");
+const processOrderButton = document.querySelector("#process-order-button");
 
 addToCartButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -28,7 +29,10 @@ closeTheCart.addEventListener("click", () => {
 clearTheCartButton.addEventListener("click", () => {
   console.log("clear the cart");
   clearTheCart();
-  showMessage("All items removed from the cart");
+});
+
+processOrderButton.addEventListener("click", () => {
+  processOrder();
 });
 
 function addToCart(itemName) {
@@ -62,6 +66,16 @@ function clearTheCart() {
     cartItems.length = 0;
     sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
     displayCartItems();
+  } else {
+    showMessage("The Cart is empty");
+  }
+}
+
+function processOrder() {
+  if (cartItems && cartItems.length > 0) {
+    clearTheCart();
+    closeCartModel();
+    showMessage("Your Order is being processed");
   } else {
     showMessage("The Cart is empty");
   }
