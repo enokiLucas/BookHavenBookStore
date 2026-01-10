@@ -210,3 +210,24 @@ button#newsletter-submit-button {
         display: none;
     }
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 5em;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 2.5em;
+    border: 0.2em solid #888;
+    width: 80%;
+}
