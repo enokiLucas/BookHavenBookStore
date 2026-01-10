@@ -62,6 +62,8 @@ function clearTheCart() {
     cartItems.length = 0;
     sessionStorage.setItem("cartItems", JSON.stringify(cartItems));
     displayCartItems();
+  } else {
+    showMessage("The Cart is empty");
   }
 }
 
