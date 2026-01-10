@@ -193,6 +193,9 @@ button#newsletter-submit-button {
     #burger-menu {
         display: flex;
         flex-direction: column;
+        position: fixed;
+        top: 8em;
+        left: 2em;
     }
 
     #burger-menu:hover #nav-links-burger {
