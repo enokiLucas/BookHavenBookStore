@@ -1,26 +1,25 @@
-#community-board {
+.custom-item {
     display: flex;
-    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+    margin: 2em;
+    color: var(--font-color);
+    justify-content: center;
     align-items: center;
-    gap: 1em;
+    align-content: center;
+}
+
+.custom-image {
+    height: 10em;
+    width: 10em;
+    border-style: solid;
+    border-radius: 2em;
+    border-width: 0.1em;
+    border-color: var(--font-color);
+}
+
+#author-event,
+#sale {
     background-color: var(--dustyRose);
     width: 100%;
-}
-
-.form-container {
-    display: flex;
-    flex-direction: column;
-}
-
-#submit-contact-us {
-    margin-bottom: 1em;
-}
-
-#msg {
-    height: 15em;
-    width: 50em;
-}
-
-.input-single-line {
-    width: 50em;
 }
