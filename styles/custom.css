@@ -9,6 +9,11 @@
     align-content: center;
 }
 
+.custom-text {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
 .custom-image {
     height: 10em;
     width: 10em;

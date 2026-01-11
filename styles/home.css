@@ -12,7 +12,8 @@
     align-items: flex-start;
     align-content: center;
     margin: 0 10em;
-    padding-left: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #catalog {
@@ -61,7 +62,8 @@
     width: 100%;
     color: var(--font-color);
     margin: 2em 5em;
-    padding-left: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 input.main-newsletter {
