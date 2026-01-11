@@ -64,11 +64,23 @@
     padding-left: 5em;
 }
 
+input.main-newsletter {
+    width: 50em;
+}
+
+form {
+    padding-bottom: 2em;
+}
+
 @media all and (max-width: 480px) {
     #welcome,
     #homepage-books,
     #catalog {
         display: flex;
         flex-direction: column;
+    }
+
+    input.main-newsletter {
+        width: 23em;
     }
 }
