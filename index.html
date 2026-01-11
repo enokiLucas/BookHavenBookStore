@@ -55,14 +55,16 @@
 
             <div id="shop-cart" class="cart-modal">
                 <div class="modal-content">
-                    <span class="close" id="close-cart">x</span>
+                    <span class="close" id="close-cart" aria-label="Close cart">x</span>
                     <p class="body-large">Your Cart</p>
                     <br />
                     <ul id="cart-items"></ul>
                     <br />
                     <br />
-                    <button id="clear-cart-button" class="cart-button body">Clear Cart</button>
-                    <button id="process-order-button" class="cart-button body">Process Order</button>
+                    <button id="clear-cart-button" class="cart-button body" aria-label="Clear Cart">Clear Cart</button>
+                    <button id="process-order-button" class="cart-button body" aria-label="Process your order">
+                        Process Order
+                    </button>
                 </div>
             </div>
         </header>
@@ -89,7 +91,12 @@
                         <img class="card-img" src="assets/Client3_Book1.png" />
                         <p class="card-title subtitle">Brie Mine 4Ever</p>
                         <p class="card-description captions">A book for cheese lovers.</p>
-                        <button type="button" class="card-button add-to-cart button-main body" data-item="Book 1">
+                        <button
+                            type="button"
+                            class="card-button add-to-cart button-main body"
+                            data-item="Brie Mine 4Ever"
+                            aria-label="Add Brie Mine 4Ever to your cart"
+                        >
                             Add to Cart
                         </button>
                     </div>
@@ -98,7 +105,12 @@
                         <img class="card-img" src="assets/Client3_Book2.png" />
                         <p class="card-title subtitle">Glory Riders</p>
                         <p class="card-description captions">A book about bikers.</p>
-                        <button type="button" class="card-button add-to-cart button-main body" data-item="Book 2">
+                        <button
+                            type="button"
+                            class="card-button add-to-cart button-main body"
+                            data-item="Glory Riders"
+                            arial-label="Add Glory Riders to your cart"
+                        >
                             Add to Cart
                         </button>
                     </div>
@@ -107,7 +119,12 @@
                         <img class="card-img" src="assets/Client3_Book3.png" />
                         <p class="card-title subtitle">Sorcerer's Shadowed Chronicles</p>
                         <p class="card-description captions">A fantasy book.</p>
-                        <button type="button" class="card-button add-to-cart button-main body" data-item="Book 3">
+                        <button
+                            type="button"
+                            class="card-button add-to-cart button-main body"
+                            data-item="Sorcerer's Shadowed Chronicles"
+                            aria-label="Add Sorcerer's Shadowed Chronicles to your cart"
+                        >
                             Add to Cart
                         </button>
                     </div>
@@ -125,7 +142,9 @@
                 <div id="catalog-text">
                     <p class="title">See all our products</p>
                     <p class="subtitle">From books to magazines and stationary, please check out our entire catalog</p>
-                    <button class="button-main body-strong" id="button-to-gallery">Gallery</button>
+                    <button class="button-main body-strong" id="button-to-gallery" aria-lable="Go to the Gallery">
+                        Gallery
+                    </button>
                 </div>
             </div>
 
@@ -151,6 +170,7 @@
                         type="submit"
                         class="button-main body-strong main-newsletter newsletter-button"
                         id="newsletter-submit-button"
+                        aria-label="Subscribe to the newsletter"
                     >
                         Subscribe
                     </button>
