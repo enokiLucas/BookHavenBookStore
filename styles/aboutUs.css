@@ -54,6 +54,13 @@ main {
     width: 50em;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
 @media all and (max-width: 480px) {
     #about-us {
         display: flex;
