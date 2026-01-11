@@ -29,6 +29,7 @@ closeTheCart.addEventListener("click", () => {
 clearTheCartButton.addEventListener("click", () => {
   console.log("clear the cart");
   clearTheCart();
+  showMessage("Your Cart is clear");
 });
 
 processOrderButton.addEventListener("click", () => {
