@@ -11,3 +11,7 @@ const customerInfo = {
 
 const keyValue = name;
 localStorage.setItem(keyValue, JSON.stringify(customerInfo));
+
+submitButton.addEventListener("click", () => {
+  alert("Thank you for your message");
+});
